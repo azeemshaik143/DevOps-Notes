@@ -1,0 +1,147 @@
+Introduction to DevOps
+
+SDLC [Software Developement life cycle] :- It is a process of to build any package, software or application.
+
+SDLC have 2 models:- (1) Waterfall model (2) Agile model
+
+(1) Waterfall model:- The waterfall moldel is a traditional and linear software developement methodology often used in project management.
+
+	Requirement/gathering/analysis
+			|
+	     Design/Planning/Architech
+			|
+	Implementation/Coding/Developement
+			|
+		       Test
+			|
+	         Release/Delivery 
+			|
+	Maintainance/Monitoring/feedback
+  
+Drawbacks or Limitations:-
+	   *It is not suitable for complex projects where changes are in high frequency.
+
+	   *Time Consuming
+
+	   *Untill unless it is completion of the current stage, we can not go for next stage and we can't go back
+
+In order to address these issues or limitations we have next model is Agile methodology.
+
+(2)Agile Methodology:-
+           *Project is divided into iterations
+
+	   *All the iterations have specific time like sprints(2 weeks - 8 weeks)
+
+	   *End of each iteration MVP(minimum viable product)
+
+Drawbacks or Limitations:-
+   	   *Mis Communication and Platform Dependency
+	   *whenever the configuration is changes the operation team will not be able to deploy the application
+
+	Dev Team 	|	Ops Team
+     [want changes]	|    [wants stability]
+
+In order to overcome agile methodology which we use DevOps which developement and operations.
+
+Developements without Devops culture:-
+(1) Release and deploy without mis matches.
+(2) Unpredictable Issues
+(3) Blame games
+
+Developements with Devops culture:-
+(1) Streamline Deliveries
+(2) Team work in collaboration
+(3) Continuous monitoring & feedback
+
+Dev Team	| 	Ops Team
+
+*Plan			*Release
+*Code			*Deploy
+*Build			*Operations
+*Test			*Monitor
+
+What DevOps is not?
+
+*DevOps is not a role, person or organisation
+*DevOps is not a separate team
+*DevOps is not a product or tool
+*DevOps is not about just writing the scripts or implementing the tools
+
+What is DevOps?
+	DevOps is a practice that allows a single team to manage the entire developement 
+life cycle i.e., development,testing,deployment and monitoring from code to production.
+
+What DevOps Do:-
+ (1) Integrates develoopers and operations team
+ (2) Improves collaboration and Productivity by automating the infra structure, automating 
+     the infra stucture, automaating the work flows, continuously measuring application 
+     performance.
+
+Skills of a DevOps Engineer:-
+(1) Tools:-
+	*Version control system (GIT)
+	*Continuous Integration(Jenkins)
+	*Containarization or Virtualization (Docker)
+	*Configuration management (Ansible)
+	*Monitoring (Promotheus and Grafana)
+(2) Networking Skills:-
+	 General Networking skills establishing connection between the container or containers orchestation
+(3) Other Skills:-
+	 People skills, process skills, customer skill and empathy, cloud awareness..
+
+DevOps life Cycle:-
+
+(1)Plan:- First stage of devops cycle where you can plan, track, visualize and summarize your project before working or starting it.
+
+   Example: JIRA , Trello
+
+(2)Code:- Second stage of DevOps cycle where the developers write their code.
+
+   Example: Git, Git hub, Bit Bucket, Git Lab
+	    AWS - code commit
+	    Azure - Azure Repo's
+
+(3) Build :- Build is a prerelease version and is defined by build number, rather than by release number.
+
+   Example: Apache maven, Jenkins
+
+(4) Test:- Process of executing automated test as a part of the software delivery pipeline in order to obtain 
+           feedback on the business risks associated with a software release as rapidly as possible.
+
+   Example: JMeter, Selinium, JUnit
+
+(5) Release:- This phase helps to integrate code into a shared repository using which you can detect and locate
+	      errors quickly and easily.
+   Example: Bambo, Git hub,Travis CI
+
+(6) Deploy:- Manage and maintain developement and deployment of software system and servers in any computional environment.
+
+   Example: AWS, Ansible, CHEF
+
+(7) Operations:- This phase is to keep the system upgraded with the latest code
+   
+   Example: AWS, Ansible, CHEF, 
+
+(8) Monitoring:- It ensures that application is performing as desire and te environment is stable then it quickly gitter
+	         minds when  a service is unavailable and understanding the under laying the causes or any issues.
+
+   Example: Promethes and Grafana, Sp;unk, Najios
+		 
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+	
+       
